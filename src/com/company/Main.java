@@ -33,7 +33,7 @@ public class Main {
         {
             System.out.println(i);
         }
-        
+
         Arrays.sort(s,(String s1,String s2)->s1.length()-s2.length());
         for(String i :s)
         {
